@@ -1,0 +1,111 @@
+
+
+/* Resaltado de palabras clave */
+.hl-critical {
+    background-color: #ff4d4d; /* Rojo fuerte */
+}
+
+.hl-high {
+    background-color: #ff9b00; /* Naranja fuerte */
+}
+
+.hl-medium {
+    background-color: #ffcc00; /* Amarillo */
+}
+
+.hl-info {
+    background-color: #7fcbff; /* Azul claro */
+}
+
+/* Estilos para los tags */
+.tag {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #7fcbff;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    margin-right: 8px;
+}
+
+.tag:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Barra de búsqueda y botones */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-bar input[type="search"] {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background-color: #222222;
+    color: #ffffff;
+    width: 300px;
+}
+
+.search-bar input[type="search"]:focus {
+    outline: none;
+    border-color: #1b85cc;
+    box-shadow: 0 0 8px rgba(27, 133, 204, 0.6);
+}
+
+.search-bar .btn {
+    padding: 12px 24px;
+    margin-left: 10px;
+    background-color: #1b85cc;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar .btn:hover {
+    background-color: #7fcbff;
+}
+
+.search-bar .btn.ghost {
+    background-color: transparent;
+    color: #1b85cc;
+    border: 1px solid #1b85cc;
+}
+
+.search-bar .btn.ghost:hover {
+    background-color: rgba(27, 133, 204, 0.1);
+}
+
+
+
+tbody th {
+    border: 1px solid #ffffff;
+}
+tbody td {
+    border: 1px solid #ffffff;
+    border-spacing: 0px;
+    padding: 4px;
+    border-collapse: collapse;
+}
+body {
+    font-family: verdana;
+}
+table {
+    font-size: 13px;
+    border-collapse: collapse;
+    width: 100%;
+}
+tbody tr:nth-child(odd) td {
+    background-color: #2b2929;
+}
+tbody tr:hover td {
+    background-color: rgb(0, 0, 0);
+}
+thead td {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
